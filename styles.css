@@ -22,6 +22,29 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   border:10px solid red;
+  background-color: red;
   border-radius:10px;
   position:absolute;
+
 }
+.blue {
+  border:10px solid blue;
+}
+.smileyface {
+  border: none;
+  position: absolute;
+  background: url(smallSmiley.png);
+  width:30px;
+  height:30px;
+
+}
+.leftButton {
+  cursor: default;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #0000ff;
+  padding: 5px;
+  border: 2px solid white;
+}
+
